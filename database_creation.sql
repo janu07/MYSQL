@@ -1,3 +1,4 @@
+
 create database Emp;
 show databases;
 use Emp;
@@ -78,5 +79,15 @@ create table Productions(
     INSERT into Productions(Name,RollNo,Sex,Dept,Year,ContactNO,Email_Id,City,State)VALUES('Sheela','119','F','MECH','3rd','2348987678','jandfhgfdhgu@gmail.com','thirupur','TamilNadu');
     
     SELECT * FROM Productions;
+    
+   drop database janu;
+   show databases;
+   
+   alter table Productions add place VARCHAR(20);
+   show tables;
+   desc Productions;
+    
+    
+    
     
     
